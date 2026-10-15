@@ -1,0 +1,35 @@
+/* EO Melbourne starter tokens: approved palette only. */
+:root {
+  --eo-blue: #0C0C31;
+  --hero-blue: #5258E2;
+  --dark-blue: #33388F;
+  --light-blue: #99A1FF;
+  --white: #FFFFFF;
+  --bg: var(--white);
+  --ink: var(--eo-blue);
+  --accent: var(--hero-blue);
+  --surface: var(--white);
+  --font-display: 'Century Gothic', 'Roboto', sans-serif;
+  --font-body: 'Roboto', 'Century Gothic', sans-serif;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-6: 24px; --space-8: 32px; --space-12: 48px; --space-16: 64px;
+  --radius-sm: 6px; --radius-md: 12px; --radius-lg: 20px;
+  --max-width: 1120px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font-body); }
+h1,h2,h3 { font-family: var(--font-display); line-height: 1.12; letter-spacing: -.03em; margin: 0 0 16px; }
+h1 { font-size: clamp(40px, 6vw, 76px); } h2 { font-size: clamp(28px, 3.7vw, 44px); } h3 { font-size: 22px; }
+p { margin: 0 0 18px; } a { color: var(--hero-blue); }
+.container { width: min(calc(100% - 40px), var(--max-width)); margin-inline: auto; }
+.eyebrow { font-size: 12px; letter-spacing: .14em; font-weight: 700; text-transform: uppercase; }
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; background:var(--accent); color:var(--white); padding:13px 20px; border-radius:var(--radius-sm); border:2px solid var(--accent); text-decoration:none; font:700 14px var(--font-body); cursor:pointer; }
+.btn.secondary { background:transparent; color:var(--hero-blue); }
+.card { background:var(--white); border:1px solid var(--light-blue); border-radius:var(--radius-md); padding:var(--space-8); }
+.card.dark { background:var(--eo-blue); color:var(--white); border-color:var(--eo-blue); }
+.callout { border-left:5px solid var(--accent); background:var(--white); padding:var(--space-6); }
+.field { display:block; width:100%; border:1px solid var(--dark-blue); border-radius:var(--radius-sm); padding:12px 14px; background:var(--white); color:var(--eo-blue); font:inherit; }
+.nav { padding:24px 0; display:flex; justify-content:space-between; align-items:center; gap:24px; }
+.brandname { font-weight:800; letter-spacing:-.02em; }
+.grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+@media(max-width:760px) { .grid { grid-template-columns:1fr; } .nav { flex-wrap:wrap; } }
