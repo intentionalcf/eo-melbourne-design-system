@@ -17,3 +17,13 @@ Before creating any EO Melbourne webpage or digital design:
 Use the original vector SVG artwork in `brand/assets/logos/`. Eight variants are available: horizontal/stacked × primary/black/white/inverse. Do not redraw, recolour, distort or recreate lettering. Preserve aspect ratio and adequate clear space. For dark navy surfaces use the approved white or inverse artwork, checking contrast. The original EPS uploads remain the master assets.
 
 Photography rules: Refer to `brand/PHOTOGRAPHY.md`. Prefer supplied real EO event photographs, paired with confident oversized typography. Never invent or recolour official EO logos.
+
+## Email-specific instructions (mandatory)
+
+Before creating or editing any EO Melbourne email:
+1. **Read root-level `EMAILS.md` first.** It governs all four email families.
+2. **Identify the family:** Learning Events, Chapter News, Member Updates or Strategic Alliance Partners. Never default every email to the Learning Event layout.
+3. **Inspect the corresponding email-safe example when available.** `examples/event-email.html` is the planned Learning Event template; the other three have their own planned templates listed in `EMAILS.md`. If missing, follow the written rules; webpage examples are not email-safe.
+4. Use **confident hybrid** for Learning Events (one strong hero, member-first proposition, concise details, one CTA). For other families, use their own recurring mastheads, layout rhythms and story structures.
+5. Follow relevant copy and visual hierarchy, approved tokens, official logo rules, photography guidance and table-based email implementation.
+6. Verify facts, eligibility, partner claims, links, image permissions, compliance and desktop/mobile rendering before production.
